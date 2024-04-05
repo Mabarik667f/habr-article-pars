@@ -14,6 +14,7 @@ def parser(url) -> None:
 
 def name_format(name: str):
     format_name = name.replace(' ', '_')
+    format_name = format_name.replace('/', "_")
     return format_name
 
 
